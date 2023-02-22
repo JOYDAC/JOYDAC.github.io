@@ -27,13 +27,12 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/JOYDAC.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
+    shortname            : "JOYDAC"
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
@@ -283,10 +282,13 @@ defaults:
   - scope:
       path: ""
       type: posts
-    values:
+    values: 
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
