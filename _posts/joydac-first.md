@@ -10,5 +10,5 @@ toc: true
 JOYDAC 블로그에서는 활동, 경험, 개발지의 모든 것을 꾸준히 업데이트할 예정입니다!
 많은 관심 부탁드려요.
 
-<img src="../images/2023-02-17-first/JOYDAC.jpg" alt="JOYDAC" style="zoom:33%;" />
+<img src="../images/joydac-first/JOYDAC.jpg" alt="JOYDAC" style="zoom:33%;" />
 
