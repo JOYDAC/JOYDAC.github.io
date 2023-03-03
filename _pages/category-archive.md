@@ -1,6 +1,6 @@
 ---
 title: "Category"
 layout: categories
-prmalink: /categories/
+permalink: /categories/
 author_profile: true
 ---
